@@ -13,7 +13,7 @@ export type ExpiresIn = number | StringValue;
 export const env = {
   port: Number(process.env.PORT || 3000),
   nodeEnv: process.env.NODE_ENV || "development",
-  mongoUri: process.env.MONGODB_URI || "mongodb+srv://paulabottaledev_db_user:Exito2026@shopmate.g7exulu.mongodb.net/?appName=shopmate",
+  mongoUri: process.env.MONGODB_URI || "",
 
   accessSecret: process.env.JWT_ACCESS_SECRET || "dev_access",
   refreshSecret: process.env.JWT_REFRESH_SECRET || "dev_refresh",
