@@ -3,13 +3,13 @@
   "compilerOptions": {
     // File Layout
     // "rootDir": "./src",
-    // "outDir": "./dist",
+    "outDir": "dist",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "ESNext",
     "target": "ES2021",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "Node",
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
@@ -43,5 +43,6 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "include": ["src", "api"]
 }
